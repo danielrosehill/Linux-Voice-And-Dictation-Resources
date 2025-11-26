@@ -34,7 +34,7 @@ if git diff --cached --name-only | grep -q "^README.md$"; then
     # Run the update script
     # Use --no-fetch if you want faster commits (uses cached API data)
     # Use full fetch for accuracy
-    python3 scripts/update_repos.py
+    python3 update_repos.py
 
     # Add the generated/updated files to the commit
     git add data/repos.json projects-by-stars.md 2>/dev/null || true

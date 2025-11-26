@@ -23,8 +23,7 @@ from typing import Dict, List, Optional
 
 def get_project_root() -> Path:
     """Get the project root directory."""
-    script_dir = Path(__file__).parent
-    return script_dir.parent
+    return Path(__file__).parent
 
 
 def extract_github_repos_from_readme(readme_path: Path) -> List[Dict[str, str]]:
