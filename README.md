@@ -78,17 +78,20 @@ The most popular repositories in this collection. For the complete list sorted b
 
 | Repository | Stars | Description | Language |
 |------------|-------|-------------|----------|
+| [**NVIDIA NeMo**](https://github.com/NVIDIA/NeMo) | ![Stars](https://img.shields.io/github/stars/NVIDIA/NeMo?style=flat-square) | Enterprise ASR toolkit with Conformer/Parakeet models | Python |
+| [**SpeechBrain**](https://github.com/speechbrain/speechbrain) | ![Stars](https://img.shields.io/github/stars/speechbrain/speechbrain?style=flat-square) | PyTorch speech toolkit for ASR, speaker recognition | Python |
+| [**Buzz**](https://github.com/chidiwilliams/buzz) | ![Stars](https://img.shields.io/github/stars/chidiwilliams/buzz?style=flat-square) | Offline transcription GUI. Flatpak/Snap available | Python |
+| [**faster-whisper**](https://github.com/SYSTRAN/faster-whisper) | ![Stars](https://img.shields.io/github/stars/SYSTRAN/faster-whisper?style=flat-square) | 4x faster Whisper with CTranslate2 | Python |
+| [**insanely-fast-whisper**](https://github.com/Vaibhavs10/insanely-fast-whisper) | ![Stars](https://img.shields.io/github/stars/Vaibhavs10/insanely-fast-whisper?style=flat-square) | Fastest Whisper CLI with batching | Python |
+| [**Silero VAD**](https://github.com/snakers4/silero-vad) | ![Stars](https://img.shields.io/github/stars/snakers4/silero-vad?style=flat-square) | Enterprise-grade Voice Activity Detector | Python |
 | [**FunASR**](https://github.com/modelscope/FunASR) | ![Stars](https://img.shields.io/github/stars/modelscope/FunASR?style=flat-square) | End-to-end speech recognition toolkit from Alibaba | Python |
+| [**Vosk**](https://github.com/alphacep/vosk-api) | ![Stars](https://img.shields.io/github/stars/alphacep/vosk-api?style=flat-square) | Offline STT API, lightweight, 20+ languages | Python |
+| [**RealtimeSTT**](https://github.com/KoljaB/RealtimeSTT) | ![Stars](https://img.shields.io/github/stars/KoljaB/RealtimeSTT?style=flat-square) | Low-latency STT with VAD and wake words | Python |
+| [**WhisperLive**](https://github.com/collabora/WhisperLive) | ![Stars](https://img.shields.io/github/stars/collabora/WhisperLive?style=flat-square) | Real-time Whisper from Collabora | Python |
 | [**NoiseTorch**](https://github.com/noisetorch/NoiseTorch) | ![Stars](https://img.shields.io/github/stars/noisetorch/NoiseTorch?style=flat-square) | Real-time microphone noise suppression on Linux | Go |
-| [**meeting-minutes**](https://github.com/Zackriya-Solutions/meeting-minutes) | ![Stars](https://img.shields.io/github/stars/Zackriya-Solutions/meeting-minutes?style=flat-square) | Self-hosted AI meeting transcription and minutes generator | C++ |
 | [**easyeffects**](https://github.com/wwmm/easyeffects) | ![Stars](https://img.shields.io/github/stars/wwmm/easyeffects?style=flat-square) | Audio effects for PipeWire - noise reduction, equalization | C++ |
-| [**Whisper-WebUI**](https://github.com/jhj0517/Whisper-WebUI) | ![Stars](https://img.shields.io/github/stars/jhj0517/Whisper-WebUI?style=flat-square) | A Gradio-based browser interface for Whisper | Python |
-| [**nerd-dictation**](https://github.com/ideasman42/nerd-dictation) | ![Stars](https://img.shields.io/github/stars/ideasman42/nerd-dictation?style=flat-square) | Simple, hackable offline speech to text - using the VOSK-API | Python |
-| [**Scriberr**](https://github.com/rishikanthc/Scriberr) | ![Stars](https://img.shields.io/github/stars/rishikanthc/Scriberr?style=flat-square) | Self-hosted AI audio transcription | Go |
-| [**dsnote**](https://github.com/mkiol/dsnote) | ![Stars](https://img.shields.io/github/stars/mkiol/dsnote?style=flat-square) | Speech Note Linux app with offline STT, TTS, and translation | C++ |
-| [**voice2json**](https://github.com/synesthesiam/voice2json) | ![Stars](https://img.shields.io/github/stars/synesthesiam/voice2json?style=flat-square) | Command-line tools for speech and intent recognition | Python |
 
-📊 **[View all 110+ projects sorted by stars →](projects-by-stars.md)**
+📊 **[View all 120+ projects sorted by stars →](projects-by-stars.md)**
 
 ---
 
@@ -179,6 +182,7 @@ As always in Linux, you'll notice a bias towards CLIs and (more AI/ML than Linux
 
 | Repository | Stars | Last Updated | Description |
 |------------|-------|--------------|-------------|
+| [**Buzz**](https://github.com/chidiwilliams/buzz) | ![Stars](https://img.shields.io/github/stars/chidiwilliams/buzz?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/chidiwilliams/buzz?style=flat-square) | Offline audio transcription and translation. Supports Whisper, Whisper.cpp, Faster-Whisper. Available via Flatpak/Snap. Vulkan GPU support |
 | [**dsnote**](https://github.com/mkiol/dsnote) | ![Stars](https://img.shields.io/github/stars/mkiol/dsnote?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/mkiol/dsnote?style=flat-square) | Speech Note Linux app. Note taking, reading and translating with offline Speech to Text, Text to Speech and Machine translation. |
 | [**whisply**](https://github.com/tsmdt/whisply) | ![Stars](https://img.shields.io/github/stars/tsmdt/whisply?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/tsmdt/whisply?style=flat-square) | A simple GUI for OpenAI Whisper |
 | [**whisper-to-input-desktop**](https://github.com/Rosbifbr/whisper-to-input-desktop) | ![Stars](https://img.shields.io/github/stars/Rosbifbr/whisper-to-input-desktop?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/Rosbifbr/whisper-to-input-desktop?style=flat-square) | A simple desktop application that uses OpenAI's Whisper to transcribe audio and input it as text |
@@ -310,6 +314,20 @@ Docker-deployed tools and web interfaces that can be deployed locally or on a se
 
 ---
 
+## Speech-to-Text - Real-Time Streaming
+
+Libraries and tools for real-time, streaming speech-to-text transcription. These are designed for live dictation, meeting transcription, and low-latency applications.
+
+| Repository | Stars | Last Updated | Description |
+|------------|-------|--------------|-------------|
+| [**RealtimeSTT**](https://github.com/KoljaB/RealtimeSTT) | ![Stars](https://img.shields.io/github/stars/KoljaB/RealtimeSTT?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/KoljaB/RealtimeSTT?style=flat-square) | Low-latency STT library with VAD, wake word activation. Uses WebRTCVAD + SileroVAD + Faster-Whisper |
+| [**WhisperLive**](https://github.com/collabora/WhisperLive) | ![Stars](https://img.shields.io/github/stars/collabora/WhisperLive?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/collabora/WhisperLive?style=flat-square) | Real-time Whisper transcription from Collabora. OpenVINO support, browser extensions, iOS client |
+| [**WhisperLiveKit**](https://github.com/QuentinFuxa/WhisperLiveKit) | ![Stars](https://img.shields.io/github/stars/QuentinFuxa/WhisperLiveKit?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/QuentinFuxa/WhisperLiveKit?style=flat-square) | 2025 SOTA streaming STT with speaker diarization. Simul-Whisper for ultra-low latency |
+| [**whisper_streaming**](https://github.com/ufal/whisper_streaming) | ![Stars](https://img.shields.io/github/stars/ufal/whisper_streaming?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/ufal/whisper_streaming?style=flat-square) | Real-time streaming Whisper with self-adaptive latency using local agreement policy |
+| [**whisper_real_time**](https://github.com/davabase/whisper_real_time) | ![Stars](https://img.shields.io/github/stars/davabase/whisper_real_time?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/davabase/whisper_real_time?style=flat-square) | Real-time transcription with OpenAI Whisper |
+
+---
+
 ## Speech-to-Text - Asynchronous
 
 Web UIs for Whisper etc for transcribing prerecorded audio and meeting processing.
@@ -414,7 +432,18 @@ To add:
 
 # Voice Assistants
 
-## General 
+## Privacy-Focused Voice Assistants
+
+Open source voice assistants emphasizing local processing and privacy:
+
+| Repository | Stars | Last Updated | Description |
+|------------|-------|--------------|-------------|
+| [**OpenVoiceOS**](https://github.com/OpenVoiceOS/ovos-core) | ![Stars](https://img.shields.io/github/stars/OpenVoiceOS/ovos-core?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/OpenVoiceOS/ovos-core?style=flat-square) | Community-driven voice assistant framework. Local processing, privacy-focused. Continuation of Mycroft |
+| [**Neon AI**](https://github.com/NeonGeckoCom/NeonCore) | ![Stars](https://img.shields.io/github/stars/NeonGeckoCom/NeonCore?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/NeonGeckoCom/NeonCore?style=flat-square) | Privacy-first voice assistant. Offline-capable, customizable. Maintains Mycroft community forums |
+| [**Project Alice**](https://github.com/project-alice-assistant/ProjectAlice) | ![Stars](https://img.shields.io/github/stars/project-alice-assistant/ProjectAlice?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/project-alice-assistant/ProjectAlice?style=flat-square) | Modular smart assistant, fully offline. Built around Snips, guarantees privacy |
+| [**SEPIA Framework**](https://github.com/SEPIA-Framework/sepia-assist-server) | ![Stars](https://img.shields.io/github/stars/SEPIA-Framework/sepia-assist-server?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/SEPIA-Framework/sepia-assist-server?style=flat-square) | Self-hosted, privacy-compliant voice assistant ecosystem. Extendable and server-based |
+
+## General
 
 | Repository | Stars | Last Updated | Description |
 |------------|-------|--------------|-------------|
@@ -477,18 +506,41 @@ These tools aren't STT/dictation tools themselves, but they help make the most o
 
 These technologies complement voice systems by detecting when speech is happening (VAD) and identifying different speakers (diarisation):
 
-- **VAD (Voice Activity Detection)**: Algorithms that detect when speech is present in an audio stream, crucial for reducing processing overhead in real-time STT systems
-- **Diarisation**: The process of partitioning an audio stream into segments according to speaker identity. [Pyannote](https://github.com/pyannote/pyannote-audio) is a popular open-source toolkit for speaker diarisation
+| Repository | Stars | Last Updated | Description |
+|------------|-------|--------------|-------------|
+| [**Silero VAD**](https://github.com/snakers4/silero-vad) | ![Stars](https://img.shields.io/github/stars/snakers4/silero-vad?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/snakers4/silero-vad?style=flat-square) | Enterprise-grade Voice Activity Detector. MIT license, <1ms per chunk on CPU, supports 6000+ languages |
+| [**pyannote-audio**](https://github.com/pyannote/pyannote-audio) | ![Stars](https://img.shields.io/github/stars/pyannote/pyannote-audio?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/pyannote/pyannote-audio?style=flat-square) | Neural building blocks for speaker diarization: speech activity detection, speaker embedding, clustering |
+| [**WebRTC VAD**](https://github.com/wiseman/py-webrtcvad) | ![Stars](https://img.shields.io/github/stars/wiseman/py-webrtcvad?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/wiseman/py-webrtcvad?style=flat-square) | Python interface to WebRTC Voice Activity Detector. Lightweight, widely used |
+| [**wyoming-openwakeword**](https://github.com/rhasspy/wyoming-openwakeword) | ![Stars](https://img.shields.io/github/stars/rhasspy/wyoming-openwakeword?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/rhasspy/wyoming-openwakeword?style=flat-square) | Wyoming server for openWakeWord. Custom wake word detection for Home Assistant |
 
 ---
 
 ## Toolkits & Frameworks
 
-ASR/STT toolkits and frameworks for building voice applications:
+ASR/STT toolkits and frameworks for building voice applications. These are development libraries rather than end-user applications:
 
 | Repository | Stars | Last Updated | Description |
 |------------|-------|--------------|-------------|
-| [**FunASR**](https://github.com/modelscope/FunASR) | ![Stars](https://img.shields.io/github/stars/modelscope/FunASR?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/modelscope/FunASR?style=flat-square) | A Fundamental End-to-End Speech Recognition Toolkit from Alibaba |
+| [**FunASR**](https://github.com/modelscope/FunASR) | ![Stars](https://img.shields.io/github/stars/modelscope/FunASR?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/modelscope/FunASR?style=flat-square) | End-to-end speech recognition toolkit from Alibaba. Industrial-grade models |
+| [**NVIDIA NeMo**](https://github.com/NVIDIA/NeMo) | ![Stars](https://img.shields.io/github/stars/NVIDIA/NeMo?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/NVIDIA/NeMo?style=flat-square) | Enterprise ASR toolkit with Conformer/Parakeet models. GPU-accelerated training and inference |
+| [**SpeechBrain**](https://github.com/speechbrain/speechbrain) | ![Stars](https://img.shields.io/github/stars/speechbrain/speechbrain?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/speechbrain/speechbrain?style=flat-square) | PyTorch-based speech toolkit for ASR, speaker recognition, speech enhancement |
+| [**Vosk**](https://github.com/alphacep/vosk-api) | ![Stars](https://img.shields.io/github/stars/alphacep/vosk-api?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/alphacep/vosk-api?style=flat-square) | Offline speech recognition API. Lightweight, 20+ languages, works on Raspberry Pi |
+| [**Coqui STT**](https://github.com/coqui-ai/STT) | ![Stars](https://img.shields.io/github/stars/coqui-ai/STT?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/coqui-ai/STT?style=flat-square) | Deep learning STT toolkit (continuation of Mozilla DeepSpeech). Custom model training |
+| [**fairseq**](https://github.com/facebookresearch/fairseq) | ![Stars](https://img.shields.io/github/stars/facebookresearch/fairseq?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/facebookresearch/fairseq?style=flat-square) | Meta's sequence modeling toolkit. Includes Wav2Vec 2.0 for self-supervised ASR |
+
+### Whisper Variants & Optimizations
+
+Optimized implementations and variants of OpenAI's Whisper model:
+
+| Repository | Stars | Last Updated | Description |
+|------------|-------|--------------|-------------|
+| [**faster-whisper**](https://github.com/SYSTRAN/faster-whisper) | ![Stars](https://img.shields.io/github/stars/SYSTRAN/faster-whisper?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/SYSTRAN/faster-whisper?style=flat-square) | CTranslate2 reimplementation. 4x faster, less memory, 8-bit quantization support |
+| [**whisper.cpp**](https://github.com/ggerganov/whisper.cpp) | ![Stars](https://img.shields.io/github/stars/ggerganov/whisper.cpp?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/ggerganov/whisper.cpp?style=flat-square) | C/C++ port of Whisper. CPU inference, minimal dependencies, runs on edge devices |
+| [**insanely-fast-whisper**](https://github.com/Vaibhavs10/insanely-fast-whisper) | ![Stars](https://img.shields.io/github/stars/Vaibhavs10/insanely-fast-whisper?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/Vaibhavs10/insanely-fast-whisper?style=flat-square) | CLI for fastest Whisper inference. Batching, flash attention, distil-whisper support |
+| [**distil-whisper**](https://github.com/huggingface/distil-whisper) | ![Stars](https://img.shields.io/github/stars/huggingface/distil-whisper?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/huggingface/distil-whisper?style=flat-square) | HuggingFace's distilled Whisper. 6x faster, 49% smaller, within 1% WER |
+| [**whisper-plus**](https://github.com/kadirnar/whisper-plus) | ![Stars](https://img.shields.io/github/stars/kadirnar/whisper-plus?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/kadirnar/whisper-plus?style=flat-square) | Advanced Whisper pipelines with diarization, translation, and video transcription support |
+| [**wyoming-faster-whisper**](https://github.com/rhasspy/wyoming-faster-whisper) | ![Stars](https://img.shields.io/github/stars/rhasspy/wyoming-faster-whisper?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/rhasspy/wyoming-faster-whisper?style=flat-square) | Wyoming protocol server for faster-whisper. Home Assistant integration |
+| [**wyoming-whisper-api-client**](https://github.com/ser/wyoming-whisper-api-client) | ![Stars](https://img.shields.io/github/stars/ser/wyoming-whisper-api-client?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/ser/wyoming-whisper-api-client?style=flat-square) | Wyoming protocol client for Whisper APIs. Centralizes STT for Home Assistant |
 
 ---
 
