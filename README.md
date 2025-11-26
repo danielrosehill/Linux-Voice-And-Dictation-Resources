@@ -31,6 +31,7 @@ I created this repo because - having been using voice for most typing for about 
 [![STT Tools](https://img.shields.io/badge/🎤_STT_Tools-Real_Time_&_Async-blue?style=for-the-badge)](#speech-to-text---real-time)
 [![Cloud STT](https://img.shields.io/badge/☁️_Cloud_STT-OpenAI_&_Deepgram-purple?style=for-the-badge)](#cloud-stt--api-based-tools)
 [![Voice Assistants](https://img.shields.io/badge/🤖_Voice_Assistants-Linux_Compatible-green?style=for-the-badge)](#voice-assistants)
+[![Projects by Stars](https://img.shields.io/badge/⭐_All_Projects-Sorted_by_Stars-gold?style=for-the-badge)](projects-by-stars.md)
 
 ## Inclusion Criteria
 
@@ -73,14 +74,21 @@ Finally, we have STT tools which firstly do STT and then translate the resulting
 
 ## Largest Projects (1000+ Stars)
 
-The most popular repositories in this collection, sorted by star count:
+The most popular repositories in this collection. For the complete list sorted by stars with live data, see **[Projects by Stars](projects-by-stars.md)**.
 
 | Repository | Stars | Description | Language |
 |------------|-------|-------------|----------|
-| [**Whisper-WebUI**](https://github.com/jhj0517/Whisper-WebUI) | ![Stars](https://img.shields.io/github/stars/jhj0517/Whisper-WebUI?style=flat-square) | A Gradio-based browser interface for Whisper. You can use it as an Easy Subtitle Generator! | Python |
-| [**nerd-dictation**](https://github.com/ideasman42/nerd-dictation) | ![Stars](https://img.shields.io/github/stars/ideasman42/nerd-dictation?style=flat-square) | Simple, hackable offline speech to text - using the VOSK-API. | Python |
-| [**Scriberr**](https://github.com/rishikanthc/Scriberr) | ![Stars](https://img.shields.io/github/stars/rishikanthc/Scriberr?style=flat-square) | Voice transcription tool | Python |
-| [**dsnote**](https://github.com/mkiol/dsnote) | ![Stars](https://img.shields.io/github/stars/mkiol/dsnote?style=flat-square) | Speech Note Linux app. Note taking, reading and translating with offline Speech to Text, Text to Speech and Machine translation. | C++ |
+| [**FunASR**](https://github.com/modelscope/FunASR) | ![Stars](https://img.shields.io/github/stars/modelscope/FunASR?style=flat-square) | End-to-end speech recognition toolkit from Alibaba | Python |
+| [**NoiseTorch**](https://github.com/noisetorch/NoiseTorch) | ![Stars](https://img.shields.io/github/stars/noisetorch/NoiseTorch?style=flat-square) | Real-time microphone noise suppression on Linux | Go |
+| [**meeting-minutes**](https://github.com/Zackriya-Solutions/meeting-minutes) | ![Stars](https://img.shields.io/github/stars/Zackriya-Solutions/meeting-minutes?style=flat-square) | Self-hosted AI meeting transcription and minutes generator | C++ |
+| [**easyeffects**](https://github.com/wwmm/easyeffects) | ![Stars](https://img.shields.io/github/stars/wwmm/easyeffects?style=flat-square) | Audio effects for PipeWire - noise reduction, equalization | C++ |
+| [**Whisper-WebUI**](https://github.com/jhj0517/Whisper-WebUI) | ![Stars](https://img.shields.io/github/stars/jhj0517/Whisper-WebUI?style=flat-square) | A Gradio-based browser interface for Whisper | Python |
+| [**nerd-dictation**](https://github.com/ideasman42/nerd-dictation) | ![Stars](https://img.shields.io/github/stars/ideasman42/nerd-dictation?style=flat-square) | Simple, hackable offline speech to text - using the VOSK-API | Python |
+| [**Scriberr**](https://github.com/rishikanthc/Scriberr) | ![Stars](https://img.shields.io/github/stars/rishikanthc/Scriberr?style=flat-square) | Self-hosted AI audio transcription | Go |
+| [**dsnote**](https://github.com/mkiol/dsnote) | ![Stars](https://img.shields.io/github/stars/mkiol/dsnote?style=flat-square) | Speech Note Linux app with offline STT, TTS, and translation | C++ |
+| [**voice2json**](https://github.com/synesthesiam/voice2json) | ![Stars](https://img.shields.io/github/stars/synesthesiam/voice2json?style=flat-square) | Command-line tools for speech and intent recognition | Python |
+
+📊 **[View all 110+ projects sorted by stars →](projects-by-stars.md)**
 
 ---
 

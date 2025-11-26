@@ -2,74 +2,137 @@
 
 All repositories from the Linux STT and Voice Assistants index, sorted by GitHub star count from highest to lowest.
 
-**Star counts as of August 27, 2025** - Static snapshot, not dynamically updated.
+**Last updated:** November 26, 2025 at 11:07 UTC
 
-| Repository | Stars (Aug 27, 2025) | Description | Language |
-|------------|----------------------|-------------|----------|
-| [**meeting-minutes**](https://github.com/Zackriya-Solutions/meeting-minutes) | 7,232 | A free and open source, self hosted Ai based live meeting note taker and minutes summary generator that can completely run in your Local device (Mac OS and windows OS Support added. Working on adding linux support soon) https://meetily.zackriya.com/ is meetly ai | C++ |
-| [**Whisper-WebUI**](https://github.com/jhj0517/Whisper-WebUI) | 2,299 | A Web UI for easy subtitle using whisper model. | Python |
-| [**notesGPT**](https://github.com/Nutlope/notesGPT) | 1,994 | Record voice notes & transcribe, summarize, and get tasks | TypeScript |
-| [**nerd-dictation**](https://github.com/ideasman42/nerd-dictation) | 1,553 | Simple, hackable offline speech to text - using the VOSK-API. | Python |
-| [**auto-subs**](https://github.com/tmoroney/auto-subs) | 1,442 | Instantly generate AI-powered subtitles on your device. Works standalone or connects to DaVinci Resolve. | TypeScript |
-| [**voice2json**](https://github.com/synesthesiam/voice2json) | 1,109 | Command-line tools for speech and intent recognition on Linux | Python |
-| [**Scriberr**](https://github.com/rishikanthc/Scriberr) | 1,099 | Self-hosted AI audio transcription | Svelte |
-| [**dsnote**](https://github.com/mkiol/dsnote) | 1,077 | Speech Note Linux app. Note taking, reading and translating with offline Speech to Text, Text to Speech and Machine translation. | C++ |
-| [**aTrain**](https://github.com/JuergenFleiss/aTrain) | 863 | A GUI tool for offline transcription of speech recordings, including speaker diarization, utilizing state-of-the-art machine learning models. | HTML |
-| [**ScribeWizard**](https://github.com/Bklieger/ScribeWizard) | 494 | ScribeWizard: Generate organized notes from audio using Groq, Whisper, and Llama3 | Python |
-| [**whisper**](https://github.com/Nutlope/whisper) | 427 | Take notes with your voice & transform them with AI | TypeScript |
-| [**say**](https://github.com/addyosmani/say) | 329 | Say - A Whisper AI Notes app | TypeScript |
-| [**linux-voice-control**](https://github.com/omegaui/linux-voice-control) | 176 | Your personal, fully customizable, Linux Voice Control Assistant. | Python |
-| [**whisper.cpp-cli**](https://github.com/charliermarsh/whisper.cpp-cli) | 174 | Packages whisper.cpp into pre-built, pip-installable wheels, for macOS and Linux. | Python |
-| [**Personal-Voice-Assistent**](https://github.com/Cyborgscode/Personal-Voice-Assistent) | 151 | Building a fully featured and localized voice assistant for Linux | Java |
-| [**BlahST**](https://github.com/QuantiusBenignus/BlahST) | 129 | Input text from speech in any Linux window, the lean, fast and accurate way, using whisper.cpp OFFLINE. Speak with local LLMs via llama.cpp. | Shell |
-| [**home-assistant-assist-desktop**](https://github.com/timmo001/home-assistant-assist-desktop) | 124 | Use Home Assistant Assist on the desktop. Compatible with Windows, MacOS, and Linux | Svelte |
-| [**whisper-subs**](https://github.com/GhostNaN/whisper-subs) | 78 | WhisperSubs is a mpv lua script to generate subtitles at runtime with whisper.cpp on Linux | Lua |
-| [**whisply**](https://github.com/tsmdt/whisply) | 58 | 💬 Transcribe, translate, diarize, annotate and subtitle video (and audio) with Whisper on Win, Linux and Mac ... fast! | Python |
-| [**tempest**](https://github.com/lavafroth/tempest) | 46 | Fully local, privacy respecting, programmable Linux voice assistant | Rust |
-| [**obsidian-scribe**](https://github.com/Mikodin/obsidian-scribe) | 43 | Record, transcribe, and transform voice notes into structured insights. Leverage Whisper or AssemblyAI and ChatGPT to fill in gaps, generate summaries, and visualize ideas — all seamlessly integrated within Obsidian. | TypeScript |
-| [**LinuxVoiceAssistant**](https://github.com/aydinnyunus/LinuxVoiceAssistant) | 39 | Linux Voice Assistant for to Make Your Work Easier | Python |
-| [**whispertux**](https://github.com/cjams/whispertux) | 38 | Simple GUI around whisper.cpp for voice-to-text on Linux | Python |
-| [**whisper-fastapi**](https://github.com/heimoshuiyu/whisper-fastapi) | 25 | A very simple whsper Python FastAPI for OpenAI API, Android voice-typing (konele), Home Assistant (wyoming), and a voice-typing script on Linux and MacOS! | Python |
-| [**jarvis_linux**](https://github.com/morrolinux/jarvis_linux) | 17 | AI voice assistant to automate operating system tasks (be careful what you run!) | Python |
-| [**Linux-Dictation-Project**](https://github.com/wheeler01/Linux-Dictation-Project) | 13 | expands the boundaries of speech recognition technology for documentation productivity on the Linux PC. With dictation and transcription capabilities as well as control over your system written in Python using whisper. | Python |
-| [**Local-Voice**](https://github.com/shashank2122/Local-Voice) | 12 | A real-time, offline voice assistant for Linux and Raspberry Pi. Uses local LLMs (via Ollama), speech-to-text (Vosk), and text-to-speech (Piper) for fast, wake-free voice interaction. No cloud. No APIs. Just Python, a mic, and your voice. | Python |
-| [**deepin-voice-note**](https://github.com/linuxdeepin/deepin-voice-note) | 11 | Voice Notes is a lightweight memo tool to make text notes and voice and audio recordings. | C++ |
-| [**whisper-ui**](https://github.com/schnoddelbotz/whisper-ui) | 10 | Transcribe audio/video to text, locally on  macOS, Linux and Windows. A simple whisper.cpp wrapper/UI built with Go/Fyne. | Go |
-| [**WhisperVoiceInput**](https://github.com/V0v1kkk/WhisperVoiceInput) | 10 | A cross-platform desktop application that records audio and transcribes it to text using OpenAI's Whisper API or compatible services.  Perfect for dictation, note-taking, and accessibility. | C# |
-| [**whatsapp_voice_transcription**](https://github.com/nerveband/whatsapp_voice_transcription) | 10 | Node.js app that transcribes WhatsApp voice notes to text using OpenAI's Whisper API. The text can also be translated to the user's preferred language and sent back to their WhatsApp account. | HTML |
-| [**whispertrigger**](https://github.com/RetroTrigger/whispertrigger) | 8 | An open-source Linux speech-to-text application inspired by SuperWhisper, built with OpenAI's Whisper model | Python |
-| [**voice2chatgpt**](https://github.com/RemiFabre/voice2chatgpt) | 6 | One-key voice-to-transcription tool: record speech, transcribe locally with Whisper, and send to ChatGPT or improve with a local LLM. | Python |
-| [**whisper-notes**](https://github.com/AsyncFuncAI/whisper-notes) | 6 | Transform your voice into text effortlessly with Whisper Notes  | Rust |
-| [**LinuxWhisper**](https://github.com/vitali87/LinuxWhisper) | 5 | Linux utility to record audio via shortcut, transcribe using a local Whisper FastAPI server, and copy text to clipboard. | Python |
-| [**WhisperNow**](https://github.com/shinglyu/WhisperNow) | 5 | A voice transcription tool using faster-whisper that records audio and converts speech to text on Linux systems. | Python |
-| [**whisper-notes-pro**](https://github.com/mzazakeith/whisper-notes-pro) | 5 | A modern, lightweight note-taking app powered by Whisper | Rust |
-| [**whisprd**](https://github.com/AgenticToaster/whisprd) | 4 | A powerful, real-time dictation system for Linux | Python |
-| [**froshine**](https://github.com/AdrianScott/froshine) | 4 | Speech-to-Text/Code using a fast local LLM, for Linux, uses Whisper | Python |
-| [**voice-typing-linux**](https://github.com/GitJuhb/voice-typing-linux) | 4 | Fast, accurate voice typing for Linux with Whisper - never miss a word! | Python |
-| [**WhisperVoice**](https://github.com/SarwadnyaMahajan/WhisperVoice) | 3 | WhisperVoice: Covert voice notes. Encrypts text and hides it via LLM-generated acrostic sentences. Murf.ai creates natural audio. Browser extension decrypts with passcode, revealing hidden message or playing decoy for unauthorized listeners. Uses LLM, Murf.ai, STT APIs | JavaScript |
-| [**sonori**](https://github.com/0xPD33/sonori) | 3 | Sonori is a fully local STT app for linux (wayland). | Rust |
-| [**dictation-service**](https://github.com/sanastasiou/dictation-service) | 2 | GPU-accelerated speech-to-text service that types what you say, powered by OpenAI's Whisper AI | Shell |
-| [**Whisper-Notepad-For-Linux**](https://github.com/danielrosehill/Whisper-Notepad-For-Linux) | 2 | Notepad for Linux that uses OpenAI Whisper (API) and reformats dictated text | Python |
-| [**stt-linux**](https://github.com/samcole8/stt-linux) | 2 | Simple PoC for global speech to text on Linux with Wayland support. | Python |
-| [**linux-stt-input**](https://github.com/fengwk/linux-stt-input) | 2 | A local, real-time speech-to-text (STT) input tool for Linux, powered by RealtimeSTT and Faster-Whisper. Press a hotkey to dictate directly into any application. | Python |
-| [**whisper-to-input-desktop**](https://github.com/Rosbifbr/whisper-to-input-desktop) | 1 | Desktop version of Whisper API called program, meant for quick, decent ASR for Linux and Windows. | Rust |
-| [**whisper-hotkey-linux**](https://github.com/atkvishnu/whisper-hotkey-linux) | 1 | Press F9. Speak. Paste. A blazing-fast, offline voice transcription tool for Linux using Whisper.cpp, bound to a global hotkey. | Shell |
-| [**WhisperHelper**](https://github.com/nacmonad/WhisperHelper) | 1 | A Linux utility that provides system-wide speech-to-text functionality by connecting to a remote Whisper API server. | Shell |
-| [**whisperer**](https://github.com/mike-cr/whisperer) | 1 | Transcribe text using whisper.cpp on linux with a key combo & auto-type it | N/A |
-| [**transcribeAnywhere**](https://github.com/naren200/transcribeAnywhere) | 1 | Linux-based transcription cum typing tool utilizing Whisper.cpp for efficient, real-time voice-to-text conversion with minimal GPU usage. It supports Docker-based deployment, across Linux capabilities and customizable audio capture settings. | C++ |
-| [**whisperai**](https://github.com/jorgecastro05/whisperai) | 1 | Sample implementation to whisperai for Linux with real time transcription | Python |
-| [**stt-linux**](https://github.com/afif-malghani/stt-linux) | 1 | Speech to text for linux using whisper | Python |
-| [**super-stt**](https://github.com/jorge-menjivar/super-stt) | 1 | High-performance speech-to-text service for Linux | Rust |
-| [**fortuna**](https://github.com/deepgram-devs/fortuna) | 1 | Linux desktop voice assistant powered by Deepgram | TypeScript |
-| [**voice-keyboard-linux**](https://github.com/deepgram/voice-keyboard-linux) | 1 | Linux virtual keyboard driver which types what you say using Deepgram Flux STT API | Rust |
-| [**vosk-cli-dictation**](https://github.com/RonanDavalan/vosk-cli-dictation) | 1 | A real-time, offline, and customizable command-line (CLI) dictation tool for Linux, powered by the Vosk engine. Supports multiple languages and global hotkeys. | Python |
-| [**maVoice-Linux**](https://github.com/lliWcWill/maVoice-Linux) | 0 | 🎙️ Lightning-fast voice dictation Desktop Web App powered by Groq's Whisper Turbo - Open-source, privacy-first, with real-time audio visualization and intuitive click controls | Rust |
-| [**mint-whisper**](https://github.com/codankra/mint-whisper) | 0 | Simple Linux Mint GUI to Stream Speech To Text using Faster-Whisper | Python |
-| [**whisper-toggle**](https://github.com/bradjmsu/whisper-toggle) | 0 | Real-time voice transcription using OpenAI's Whisper model locally on Linux | Python |
-| [**whisper-transcribe**](https://github.com/geraschenko/whisper-transcribe) | 0 | A "voice keyboard" utility for linux built on whisper.cpp and xdotool | C++ |
-| [**handsfree**](https://github.com/achyudh/handsfree) | 0 | A local, real-time speech-to-text utility for Linux using Whisper | Nix |
-| [**TermlAi**](https://github.com/rohitkr150015/TermlAi) | 0 | TermiAI is a fast, offline, cross-platform terminal assistant. It uses Faster-Whisper for voice input and Ollama with lightweight LLMs (like phi3) to convert speech to shell commands. Supports safe execution, logging, and runs on Linux, Windows, and macOS. | Python |
-| [**Thought-Pad**](https://github.com/danielrosehill/Thought-Pad) | 0 | Linux desktop application that provides a two-stage process for creating notes from dictated speech (first stage, transcription via Whisper API; second stage light text formatting). Exports to markdown docs. | Python |
-| [**wvcr**](https://github.com/bakeryproducts/wvcr) | 0 | simple linux STT script with [optional] OAI postprocessing | Python |
-| [**STT-Assistant-linux**](https://github.com/4lext/STT-Assistant-linux) | 0 | No description available | Python |
-| [**voicekeyboard**](https://github.com/sam1am/voicekeyboard) | 0 | A STT keyboard for linux terminal. | Python |
+*This page is auto-generated from [repos.json](data/repos.json). Star counts are fetched from the GitHub API.*
+
+---
+
+## Summary
+
+- **Total Projects:** 110
+- **Projects with 1000+ stars:** 14
+- **Projects with 100+ stars:** 25
+
+---
+
+## All Projects
+
+| Rank | Repository | Stars | Language | Description |
+|------|------------|-------|----------|-------------|
+| 1 | [**FunASR**](https://github.com/modelscope/FunASR) | 13,611 | Python | A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Suppo... |
+| 2 | [**NoiseTorch**](https://github.com/noisetorch/NoiseTorch) | 9,980 | Go | Real-time microphone noise suppression on Linux. |
+| 3 | [**Pyannote**](https://github.com/pyannote/pyannote-audio) | 8,739 | Jupyter Notebook | Neural building blocks for speaker diarization: speech activity detection, speaker change detecti... |
+| 4 | [**meeting-minutes**](https://github.com/Zackriya-Solutions/meeting-minutes) | 8,378 | Rust | A free and open source, self hosted Ai based live meeting note taker and minutes summary generato... |
+| 5 | [**easyeffects**](https://github.com/wwmm/easyeffects) | 8,334 | C++ | Limiter, compressor, convolver, equalizer and auto volume and many other plugins for PipeWire app... |
+| 6 | [**Handy**](https://github.com/cjpais/Handy) | 7,237 | TypeScript | A free, open source, and extensible speech-to-text application that works completely offline. |
+| 7 | [**Whisper-WebUI**](https://github.com/jhj0517/Whisper-WebUI) | 2,518 | Python | A Web UI for easy subtitle using whisper model. |
+| 8 | [**auto-subs**](https://github.com/tmoroney/auto-subs) | 2,283 | TypeScript | Instantly generate AI-powered subtitles on your device. Works standalone or connects to DaVinci R... |
+| 9 | [**notesGPT**](https://github.com/Nutlope/notesGPT) | 2,043 | TypeScript | Record voice notes & transcribe, summarize, and get tasks |
+| 10 | [**ydotool**](https://github.com/ReimuNotMoe/ydotool) | 1,968 | C | Generic command-line automation tool (no X!) |
+| 11 | [**nerd-dictation**](https://github.com/ideasman42/nerd-dictation) | 1,662 | Python | Simple, hackable offline speech to text - using the VOSK-API. |
+| 12 | [**Scriberr**](https://github.com/rishikanthc/Scriberr) | 1,496 | Go | Self-hosted AI audio transcription |
+| 13 | [**dsnote**](https://github.com/mkiol/dsnote) | 1,234 | C++ | Speech Note Linux app. Note taking, reading and translating with offline Speech to Text, Text to ... |
+| 14 | [**voice2json**](https://github.com/synesthesiam/voice2json) ⚠️ | 1,107 | Python | Command-line tools for speech and intent recognition on Linux |
+| 15 | [**aTrain**](https://github.com/JuergenFleiss/aTrain) | 976 | HTML | A GUI tool for offline transcription of speech recordings, including speaker diarization, utilizi... |
+| 16 | [**overlayed**](https://github.com/overlayeddev/overlayed) | 576 | TypeScript | A modern, open-source, and free voice chat overlay for Discord that supports Mac, Linux, and Windows |
+| 17 | [**ScribeWizard**](https://github.com/Bklieger/ScribeWizard) | 501 | Python | ScribeWizard: Generate organized notes from audio using Groq, Whisper, and Llama3 |
+| 18 | [**whisper**](https://github.com/Nutlope/whisper) | 459 | TypeScript | Take notes with your voice & transform them with AI |
+| 19 | [**ovos-buildroot**](https://github.com/OpenVoiceOS/ovos-buildroot) | 271 | Python | Open Voice Operating System - Buildroot edition is a minimalistic linux OS bringing the OVOS voic... |
+| 20 | [**linux-voice-control**](https://github.com/omegaui/linux-voice-control) | 187 | Python | Your personal, fully customizable, Linux Voice Control Assistant. |
+| 21 | [**whisper.cpp-cli**](https://github.com/charliermarsh/whisper.cpp-cli) | 176 | Python | Packages whisper.cpp into pre-built, pip-installable wheels, for macOS and Linux. |
+| 22 | [**BlahST**](https://github.com/QuantiusBenignus/BlahST) | 151 | Shell | Input text from speech in any Linux window, the lean, fast and accurate way, using whisper.cpp OF... |
+| 23 | [**Personal-Voice-Assistent**](https://github.com/Cyborgscode/Personal-Voice-Assistent) | 151 | Java | Building a fully featured and localized voice assistant for Linux |
+| 24 | [**voxd**](https://github.com/jakovius/voxd) | 147 | Python | VOXD is a speech-to-text, voice-typing, dictation software for linux distributions. It is an open... |
+| 25 | [**home-assistant-assist-desktop**](https://github.com/timmo001/home-assistant-assist-desktop) | 130 | Svelte | Use Home Assistant Assist on the desktop. Compatible with Windows, MacOS, and Linux |
+| 26 | [**blurt**](https://github.com/QuantiusBenignus/blurt) | 99 | JavaScript | Gnome shell extension for accurate OFFLINE speech to text input in Linux using whisper.cpp. Input... |
+| 27 | [**hyprwhspr**](https://github.com/goodroot/hyprwhspr) | 90 | Python |  Native speech-to-text for Arch / Omarchy - Fast, accurate and easy system-wide dictation |
+| 28 | [**whisper-subs**](https://github.com/GhostNaN/whisper-subs) | 85 | Lua | WhisperSubs is a mpv lua script to generate subtitles at runtime with whisper.cpp on Linux |
+| 29 | [**whisply**](https://github.com/tsmdt/whisply) | 72 | Python | 💬 Transcribe, translate, diarize, annotate and subtitle video (and audio) with Whisper on Win, Li... |
+| 30 | [**speech-assistant**](https://github.com/Mohamad-Hussein/speech-assistant) | 60 | Python | Desktop application for Linux and Windows that utilizes distil-whisper models from HuggingFace, t... |
+| 31 | [**whispertux**](https://github.com/cjams/whispertux) | 54 | Python | Simple GUI around whisper.cpp for voice-to-text on Linux |
+| 32 | [**obsidian-scribe**](https://github.com/Mikodin/obsidian-scribe) | 48 | TypeScript | Record, transcribe, and transform voice notes into structured insights. Leverage Whisper or Assem... |
+| 33 | [**tempest**](https://github.com/lavafroth/tempest) | 48 | Rust | Fully local, privacy respecting, programmable Linux voice assistant |
+| 34 | [**voiceprint**](https://github.com/Raymo111/voiceprint) | 47 | Python | Voice biometric authentication PAM module for Linux |
+| 35 | [**whisper-fastapi**](https://github.com/heimoshuiyu/whisper-fastapi) | 42 | Python | A very simple whsper Python FastAPI for OpenAI API, Android voice-typing (konele), Home Assistant... |
+| 36 | [**hyprvoice**](https://github.com/LeonardoTrapani/hyprvoice) | 39 | Go | Voice‑powered typing for Wayland/Hyprland desktops |
+| 37 | [**LinuxVoiceAssistant**](https://github.com/aydinnyunus/LinuxVoiceAssistant) | 38 | Python | Linux Voice Assistant for to Make Your Work Easier |
+| 38 | [**whispy**](https://github.com/daaku/whispy) | 29 | Go | Speech-to-text typing for Linux/Wayland using Whisper. |
+| 39 | [**super-stt**](https://github.com/jorge-menjivar/super-stt) | 20 | Rust | High-performance speech-to-text service for Linux |
+| 40 | [**speak-to-ai**](https://github.com/AshBuk/speak-to-ai) | 17 | Go | Speak to AI - native Linux voice-to-text app |
+| 41 | [**jarvis_linux**](https://github.com/morrolinux/jarvis_linux) | 17 | Python | AI voice assistant to automate operating system tasks (be careful what you run!) |
+| 42 | [**Local-Voice**](https://github.com/shashank2122/Local-Voice) | 15 | Python | A real-time, offline voice assistant for Linux and Raspberry Pi. Uses local LLMs (via Ollama), sp... |
+| 43 | [**Linux-Dictation-Project**](https://github.com/wheeler01/Linux-Dictation-Project) | 14 | Python | expands the boundaries of speech recognition technology for documentation productivity on the Lin... |
+| 44 | [**whisper-ui**](https://github.com/schnoddelbotz/whisper-ui) | 14 | Go | Transcribe audio/video to text, locally on  macOS, Linux and Windows. A simple whisper.cpp wrappe... |
+| 45 | [**linux-voice-to-text-ai**](https://github.com/trebormc/linux-voice-to-text-ai) | 13 | Python | Linux-based voice-to-text tool using AI (Whisper/DeepGram) for real-time speech transcription. Co... |
+| 46 | [**whatsapp_voice_transcription**](https://github.com/nerveband/whatsapp_voice_transcription) | 13 | HTML | Node.js app that transcribes WhatsApp voice notes to text using OpenAI's Whisper API. The text ca... |
+| 47 | [**whispertrigger**](https://github.com/RetroTrigger/whispertrigger) | 12 | Python | An open-source Linux speech-to-text application inspired by SuperWhisper, built with OpenAI's Whi... |
+| 48 | [**WhisperVoiceInput**](https://github.com/V0v1kkk/WhisperVoiceInput) | 11 | C# | A cross-platform desktop application that records audio and transcribes it to text using OpenAI's... |
+| 49 | [**deepin-voice-note**](https://github.com/linuxdeepin/deepin-voice-note) | 11 | C++ | Voice Notes is a lightweight memo tool to make text notes and voice and audio recordings. |
+| 50 | [**Whisper-Dictation**](https://github.com/LumenYoung/Whisper-Dictation) | 8 | Python | A dictation application on linux using openai's whisper. Currently only used on KDE wayland. |
+| 51 | [**voice-typing-linux**](https://github.com/GitJuhb/voice-typing-linux) | 7 | Python | Fast, accurate voice typing for Linux with Whisper - never miss a word! |
+| 52 | [**keyless**](https://github.com/hate/keyless) | 7 | Rust | Privacy‑first, real‑time speech‑to‑text dictation. 100% local inference in Rust; hotkey to dictat... |
+| 53 | [**whisper-notes**](https://github.com/AsyncFuncAI/whisper-notes) | 7 | Rust | Transform your voice into text effortlessly with Whisper Notes  |
+| 54 | [**sonori**](https://github.com/0xPD33/sonori) | 7 | Rust | Sonori is a fully local STT app for Linux (Wayland). |
+| 55 | [**freespeak**](https://github.com/Zetaphor/freespeak) | 6 | JavaScript | Simple voice typing for Wayland users |
+| 56 | [**swictation**](https://github.com/robertelee78/swictation) | 6 | Makefile | Dictation toggle for Sway/Gnome/Wayland/X11 use. Local/private STT using NVIDIA parakeet-tdt [0.6... |
+| 57 | [**voice2chatgpt**](https://github.com/RemiFabre/voice2chatgpt) | 6 | Python | One-key voice-to-transcription tool: record speech, transcribe locally with Whisper, and send to ... |
+| 58 | [**WhisperNow**](https://github.com/shinglyu/WhisperNow) | 6 | Python | A voice transcription tool using faster-whisper that records audio and converts speech to text on... |
+| 59 | [**voice-keyboard-linux**](https://github.com/deepgram/voice-keyboard-linux) | 6 | Rust | Linux virtual keyboard driver which types what you say using Deepgram Flux STT API |
+| 60 | [**mt_stt**](https://github.com/RhinoDevel/mt_stt) | 6 | C++ | Pure C wrapper library to use Whisper.cpp with Linux and Windows as simple as possible. |
+| 61 | [**LinuxWhisper**](https://github.com/vitali87/LinuxWhisper) | 5 | Python | Linux utility to record audio via shortcut, transcribe using a local Whisper FastAPI server, and ... |
+| 62 | [**whisper-notes-pro**](https://github.com/mzazakeith/whisper-notes-pro) | 5 | Rust | A modern, lightweight note-taking app powered by Whisper |
+| 63 | [**dictation-tools**](https://github.com/gfreeau/dictation-tools) | 4 | Python | Linux alternative to Wispr Flow for vibe coding with Cursor but works with any app. Uses OpenAI o... |
+| 64 | [**whisprd**](https://github.com/AgenticToaster/whisprd) | 4 | Python | A powerful, real-time dictation system for Linux |
+| 65 | [**froshine**](https://github.com/AdrianScott/froshine) | 4 | Python | Speech-to-Text/Code using a fast local LLM, for Linux, uses Whisper |
+| 66 | [**whisp-away**](https://github.com/madjinn/whisp-away) | 4 | Rust | WhispAway, local dictation tool for Linux. |
+| 67 | [**WhisperVoice**](https://github.com/SarwadnyaMahajan/WhisperVoice) | 4 | JavaScript | WhisperVoice: Covert voice notes. Encrypts text and hides it via LLM-generated acrostic sentences... |
+| 68 | [**vosk-cli-dictation**](https://github.com/RonanDavalan/vosk-cli-dictation) | 4 | Python | A real-time, offline, and customizable command-line (CLI) dictation tool for Linux, powered by th... |
+| 69 | [**niri-transcribe**](https://github.com/sevos/niri-transcribe) | 3 | JavaScript | Real-Time Transcription System for Niri - MacOS-like dictation for Linux Wayland environments |
+| 70 | [**wispr-lite**](https://github.com/dosment/wispr-lite) | 3 | Python | Wispr-Lite: local voice dictation and command launcher for Linux Mint Cinnamon |
+| 71 | [**pywhisper-dictation**](https://github.com/eddiedunn/pywhisper-dictation) | 3 | Python | Simple Python Tkinter GUI App for linux that uses whisper from openai for transcription. |
+| 72 | [**dictation-service**](https://github.com/sanastasiou/dictation-service) | 3 | Python | GPU-accelerated speech-to-text service that types what you say, powered by OpenAI's Whisper AI |
+| 73 | [**local-dictation-assistant**](https://github.com/Wiecek-K/local-dictation-assistant) | 2 | Python | A fully offline, high-performance, streaming speech-to-text tool for developers on Linux. |
+| 74 | [**maVoice-Linux**](https://github.com/lliWcWill/maVoice-Linux) | 2 | Rust | 🎙️ Lightning-fast voice dictation Desktop Web App powered by Groq's Whisper Turbo - Open-source, ... |
+| 75 | [**OpenWispr**](https://github.com/imsidharthj/OpenWispr) | 2 | Python | voice-to-text dictation tool that allows you to type in any application on your Linux desktop sim... |
+| 76 | [**whisper-hotkey-linux**](https://github.com/atkvishnu/whisper-hotkey-linux) | 2 | Shell | Press F9. Speak. Paste. A blazing-fast, offline voice transcription tool for Linux using Whisper.... |
+| 77 | [**linux_dictation**](https://github.com/mysticaltech/linux_dictation) | 2 | Python | Transform your Linux system into a powerful voice-controlled workstation with real-time dictation... |
+| 78 | [**FasterWhisper**](https://github.com/CGAlei/FasterWhisper) | 2 | Python | Real-time desktop audio transcription using OpenAI Whisper for Arch Linux with CUDA acceleration |
+| 79 | [**multi-dictate**](https://github.com/makelinux/multi-dictate) | 2 | Python | A user-friendly voice dictation application for Linux that supports multiple languages.  |
+| 80 | [**ptt-dictate**](https://github.com/arturo-jc/ptt-dictate) | 2 | Shell | Push-to-talk voice dictation for Linux. Record with PipeWire, transcribe locally via whisper.cpp,... |
+| 81 | [**VocalFLow**](https://github.com/R3DK3LL/VocalFLow) | 2 | Python | Your voice - VocalFlow dictation, harnessing Whisper and faster-whisper for real-time transcripti... |
+| 82 | [**Whisper-Notepad-For-Linux**](https://github.com/danielrosehill/Whisper-Notepad-For-Linux) | 2 | Python | Notepad for Linux that uses OpenAI Whisper (API) and reformats dictated text |
+| 83 | [**stt-linux**](https://github.com/samcole8/stt-linux) | 2 | Python | Simple PoC for global speech to text on Linux with Wayland support. |
+| 84 | [**linux-stt-input**](https://github.com/fengwk/linux-stt-input) | 2 | Python | A local, real-time speech-to-text (STT) input tool for Linux, powered by RealtimeSTT and Faster-W... |
+| 85 | [**wayland-voice-dictation**](https://github.com/MasonRhodesDev/wayland-voice-dictation) | 1 | Rust | No description |
+| 86 | [**whisper-wayland**](https://github.com/Andrewske/whisper-wayland) | 1 | Python | Voice dictation for Linux/Wayland (like wisprflow). 100% offline, GPU-accelerated, and actually w... |
+| 87 | [**whisper-to-input-desktop**](https://github.com/Rosbifbr/whisper-to-input-desktop) | 1 | Rust | Desktop version of Whisper API called program, meant for quick, decent ASR for Linux and Windows. |
+| 88 | [**WhisperHelper**](https://github.com/nacmonad/WhisperHelper) | 1 | Shell | A Linux utility that provides system-wide speech-to-text functionality by connecting to a remote ... |
+| 89 | [**dictator**](https://github.com/chris17453/dictator) | 1 | Python | A Linux / Gnome dictation app which uses fast whisper to do speach to text. |
+| 90 | [**Dictation**](https://github.com/VanQWisher/Dictation) | 1 | N/A | A speedy unrestricted voice dictation tool on Linux that uses wipsper. |
+| 91 | [**dicti**](https://github.com/tksimson/dicti) | 1 | Python | Linux Live Dictation - Real-time speech-to-text with Whisper |
+| 92 | [**whisperer**](https://github.com/mike-cr/whisperer) | 1 | N/A | Transcribe text using whisper.cpp on linux with a key combo & auto-type it |
+| 93 | [**transcribeAnywhere**](https://github.com/naren200/transcribeAnywhere) | 1 | C++ | Linux-based transcription cum typing tool utilizing Whisper.cpp for efficient, real-time voice-to... |
+| 94 | [**whisperai**](https://github.com/jorgecastro05/whisperai) | 1 | Python | Sample implementation to whisperai for Linux with real time transcription |
+| 95 | [**stt-linux**](https://github.com/afif-malghani/stt-linux) | 1 | Python | Speech to text for linux using whisper |
+| 96 | [**fortuna**](https://github.com/deepgram-devs/fortuna) | 1 | TypeScript | Linux desktop voice assistant powered by Deepgram |
+| 97 | [**Whisper-Notepad-Simple**](https://github.com/danielrosehill/Whisper-Notepad-Simple) | 1 | Python | A Linux desktop utility for converting speech to text using the OpenAI Whisper API |
+| 98 | [**speech2keys**](https://github.com/vanviegen/speech2keys) | 1 | Rust | A fast, lightweight Linux tool that converts speech to text and types it into any window using Op... |
+| 99 | [**whisper-dictation**](https://github.com/NicolasHuberty/whisper-dictation) | 0 | Shell | Linux whisper dictation |
+| 100 | [**whisper-dictation**](https://github.com/ananjiani/whisper-dictation) | 0 | Shell | A minimal voice dictation tool using OpenAI's Whisper for Linux |
+| 101 | [**mint-whisper**](https://github.com/codankra/mint-whisper) | 0 | Python | Simple Linux Mint GUI to Stream Speech To Text using Faster-Whisper |
+| 102 | [**whisper-toggle**](https://github.com/bradjmsu/whisper-toggle) | 0 | Python | Real-time voice transcription using OpenAI's Whisper model locally on Linux |
+| 103 | [**whisper-transcribe**](https://github.com/geraschenko/whisper-transcribe) | 0 | C++ | A "voice keyboard" utility for linux built on whisper.cpp and xdotool |
+| 104 | [**handsfree**](https://github.com/achyudh/handsfree) | 0 | Nix | A local, real-time speech-to-text utility for Linux using Whisper |
+| 105 | [**TermlAi**](https://github.com/rohitkr150015/TermlAi) | 0 | Python | TermiAI is a fast, offline, cross-platform terminal assistant. It uses Faster-Whisper for voice i... |
+| 106 | [**Thought-Pad**](https://github.com/danielrosehill/Thought-Pad) | 0 | Python | Linux desktop application that provides a two-stage process for creating notes from dictated spee... |
+| 107 | [**wvcr**](https://github.com/bakeryproducts/wvcr) | 0 | Python | simple linux STT script with [optional] OAI postprocessing |
+| 108 | [**STT-Assistant-linux**](https://github.com/4lext/STT-Assistant-linux) | 0 | N/A | No description |
+| 109 | [**voicekeyboard**](https://github.com/sam1am/voicekeyboard) | 0 | Python | A STT keyboard for linux terminal. |
+| 110 | [**Deepgram-Voice-Keyboard-Ubuntu**](https://github.com/danielrosehill/Deepgram-Voice-Keyboard-Ubuntu) | 0 | Shell | WIP to try to create a good STT utility with cloud STT APIs |
+
+---
+
+*⚠️ = Archived repository*
+
+*Data source: GitHub API via `gh` CLI*

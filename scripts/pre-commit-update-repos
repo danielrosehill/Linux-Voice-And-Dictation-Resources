@@ -1,0 +1,45 @@
+#!/bin/bash
+#
+# Pre-commit hook to update repository metadata
+#
+# This hook:
+# 1. Checks if README.md has been modified
+# 2. If so, runs the update script to refresh JSON data
+# 3. Re-adds the generated files to the commit
+#
+# To install:
+#   ln -sf ../../scripts/pre-commit-update-repos .git/hooks/pre-commit
+#
+# Or add to your git hooks path:
+#   git config core.hooksPath scripts
+#
+
+set -e
+
+# Get the repo root via git
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+
+# Change to repo root
+cd "$REPO_ROOT"
+
+# Check if README.md is being committed
+if git diff --cached --name-only | grep -q "^README.md$"; then
+    echo "README.md modified - updating repository metadata..."
+
+    # Check if we have the venv
+    if [ -d ".venv" ]; then
+        source .venv/bin/activate
+    fi
+
+    # Run the update script
+    # Use --no-fetch if you want faster commits (uses cached API data)
+    # Use full fetch for accuracy
+    python3 scripts/update_repos.py
+
+    # Add the generated/updated files to the commit
+    git add data/repos.json projects-by-stars.md 2>/dev/null || true
+
+    echo "Repository metadata updated and staged."
+fi
+
+exit 0
