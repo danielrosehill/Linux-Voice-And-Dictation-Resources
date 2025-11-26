@@ -1,30 +1,41 @@
-# Linux Voice And Dictation Resources
+# Linux-Friendly Voice Tech
 
 ![alt text](banner.png)
 
-## A snapshot of the evolving STT ecosystem for Linux  
+## An index of voice technology tools accessible to Linux users
 
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2026%2C%202025-blue?style=flat-square)
 ![Repository Type](https://img.shields.io/badge/Type-Index-green?style=flat-square)
 ![Resources](https://img.shields.io/badge/Resources-100%2B-orange?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 
+## What's Here
+
+This repository gathers voice technology tools that are accessible to Linux desktop users. The collection spans a wide range:
+
+- **Real-time transcription** ("voice typing") - tools for live dictation
+- **Asynchronous transcription** - note-taking apps, meeting transcribers, audio-to-text converters
+- **Voice assistants** - voice-controlled interfaces and assistants
+- **Development frameworks** - libraries and toolkits for building voice applications
+
+For a tool to be "Linux accessible," it needs to offer one of: a native GUI, a CLI, a web UI (self-hosted or cloud), or SaaS with browser access.
+
 ## Keywords
 
-- Speech to text (STT) 
-- Automatic speech recognition (ASR) 
-- Linux note transcription 
-- Linux voice control 
-- Linux transcription 
-- Linux dictation 
+- Automatic speech recognition (ASR)
+- Speech-to-text (STT)
+- Linux voice typing
+- Linux dictation
+- Voice control
+- Transcription
 
-## The Boom In Linux STT/ASR (Whisper - Present) 
+## The Voice Tech Boom on Linux
 
-For a long time, voice support on Linux was very partial: the platform was mostly ignored by major dictation providers, owing to small desktop share, and voice assistant tools were hampered, in large part, by that fact - transcription being required for "assistants" which convert understood commands into shell commands/actions.
+For years, voice support on Linux was sparse. Major dictation providers ignored the platform due to small desktop market share, and voice assistant projects struggled without reliable transcription backends.
 
-Since OpenAI open-sourced Whisper, there has been an explosion of tools. We now have a familiar Linux problem: lots of splintered projects!
+Since OpenAI open-sourced Whisper, the landscape has transformed dramatically. We've gone from a handful of options to an explosion of projects—now presenting a familiar Linux challenge: many splintered efforts across the ecosystem.
 
-I created this repo because - having been using voice for most typing for about a year now - I wanted to gather a list of projects to "check out" (over time). 
+I created this repo as a Linux user passionate about voice technology, wanting to gather and organize the rapidly growing list of tools. What was once a short list is now quite extensive, and my aim is to help others (and myself) navigate and explore this space. 
 
 ## Quick Navigation
 
@@ -56,19 +67,21 @@ Projects typically support either **local STT** or **cloud STT**, and less commo
 
 Among cloud STT integrations, **Whisper** (via OpenAI or other providers) remains the most common integration. However, a small but growing selection of projects are emerging that use **Deepgram** for cloud-based STT.
 
-## Categorizing Whisper Implementations
+## How This Repository Is Organized
 
-Given the very long list of Whisper implementations, an attempt is made here to categorize them into groups. The most significant divisions are:
+Given the large number of projects, I've attempted to categorize them along several dimensions:
 
 - **Wayland support**: Projects explicitly supporting Wayland virtual input (important for modern Linux desktop users)
 - **Hardware focus**: CPU-centric vs. GPU-optimized implementations
-- **Transcription mode**: Real-time (streaming) vs. asynchronous (batch/upload) focused
+- **Transcription mode**: Real-time (streaming) vs. asynchronous (batch/upload)
 
-The first category of solutions in the STT landscape is "pure play" STT solutions. These may be CLIs, desktop GUIs, or web UIs. They may be synchronous tools which try to do STT on the fly (challenging!) or asynchronous (like: upload and transcribe apps). Or they may offer both. 
+Beyond these technical distinctions, projects roughly fall into three functional categories:
 
-Many of the emerging and AI-centric voice technologies combine first pass STT with second pass LLM text optimisation. Whether this two-pass process happens entirely locally, entirely through cloud API calls, or either, these can be grouped together by the commonality that they all send a raw STT transcript through an LLM for rewording into a desired specific textual format (like an email) or simply to remove typos. I call these "STT and rewrite".
+1. **Pure ASR tools**: CLIs, desktop GUIs, or web UIs focused solely on transcription—either real-time or asynchronous (upload and transcribe).
 
-Finally, we have STT tools which firstly do STT and then translate the resulting natural language into some other format. These include STT-to-code, STT to MCP, STT to computer use agents (etc). I call these "STT and do stuff."
+2. **ASR + rewrite**: Tools that combine speech recognition with LLM post-processing. The raw transcript gets refined through a language model to fix errors, improve formatting, or restructure into specific formats (emails, notes, etc.).
+
+3. **ASR + action**: Tools that transcribe speech and then translate the result into actions—voice-to-code, voice-to-MCP, voice commands, computer use agents, etc.
 
 ---
 
@@ -112,13 +125,13 @@ This repository focuses on modern ASR projects from the current AI-accelerated e
 
 ---
 
-## Foundations Of Transription: Models + Wrappers
+## Foundations of Transcription: Models + Wrappers
 
-The foundations of speech to text (in the modern era) are ASR models. 
+The foundation of modern voice technology is ASR (automatic speech recognition) models. 
 
 Typically these are chained with other smaller models to:
 
-- Add puncutation 
+- Add punctuation 
 - Add voice activity detection (some tools) 
 - Add speaker identification/diarisation (some tools) 
 
