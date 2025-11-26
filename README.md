@@ -4,7 +4,7 @@
 
 ## A snapshot of the evolving STT ecosystem for Linux  
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2017%2C%202025-blue?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2026%2C%202025-blue?style=flat-square)
 ![Repository Type](https://img.shields.io/badge/Type-Index-green?style=flat-square)
 ![Resources](https://img.shields.io/badge/Resources-100%2B-orange?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
@@ -29,6 +29,7 @@ I created this repo because - having been using voice for most typing for about 
 ## Quick Navigation
 
 [![STT Tools](https://img.shields.io/badge/🎤_STT_Tools-Real_Time_&_Async-blue?style=for-the-badge)](#speech-to-text---real-time)
+[![Cloud STT](https://img.shields.io/badge/☁️_Cloud_STT-OpenAI_&_Deepgram-purple?style=for-the-badge)](#cloud-stt--api-based-tools)
 [![Voice Assistants](https://img.shields.io/badge/🤖_Voice_Assistants-Linux_Compatible-green?style=for-the-badge)](#voice-assistants)
 
 ## Inclusion Criteria
@@ -136,6 +137,28 @@ Wayland presents challenges with virtual keyboards.
 
 [ydotool](https://github.com/ReimuNotMoe/ydotool) (and its daemon) are commonly used to attempt to provide virtual keyboard suport while other implementations implement at the kernel level.
 
+---
+
+## STT Tools with Wayland Support
+
+Projects with explicit Wayland support. These are particularly valuable for users on modern Linux desktops (GNOME, KDE Plasma on Wayland, Hyprland, Sway, niri, etc.) where X11 virtual input methods don't work. Note that Wayland compatibility can vary—some tools may require additional configuration or have limitations depending on your compositor.
+
+| Repository | Stars | Last Updated | Description |
+|------------|-------|--------------|-------------|
+| [**hyprvoice**](https://github.com/LeonardoTrapani/hyprvoice) | ![Stars](https://img.shields.io/github/stars/LeonardoTrapani/hyprvoice?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/LeonardoTrapani/hyprvoice?style=flat-square) | Voice dictation for Hyprland |
+| [**hyprwhspr**](https://github.com/goodroot/hyprwhspr) | ![Stars](https://img.shields.io/github/stars/goodroot/hyprwhspr?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/goodroot/hyprwhspr?style=flat-square) | Whisper-based voice input for Hyprland |
+| [**freespeak**](https://github.com/Zetaphor/freespeak) | ![Stars](https://img.shields.io/github/stars/Zetaphor/freespeak?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/Zetaphor/freespeak?style=flat-square) | Voice dictation with Wayland support |
+| [**wayland-voice-dictation**](https://github.com/MasonRhodesDev/wayland-voice-dictation) | ![Stars](https://img.shields.io/github/stars/MasonRhodesDev/wayland-voice-dictation?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/MasonRhodesDev/wayland-voice-dictation?style=flat-square) | Voice dictation designed for Wayland |
+| [**whisper-wayland**](https://github.com/Andrewske/whisper-wayland) | ![Stars](https://img.shields.io/github/stars/Andrewske/whisper-wayland?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/Andrewske/whisper-wayland?style=flat-square) | Whisper integration for Wayland |
+| [**niri-transcribe**](https://github.com/sevos/niri-transcribe) | ![Stars](https://img.shields.io/github/stars/sevos/niri-transcribe?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/sevos/niri-transcribe?style=flat-square) | Transcription tool for niri compositor |
+| [**swictation**](https://github.com/robertelee78/swictation) | ![Stars](https://img.shields.io/github/stars/robertelee78/swictation?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/robertelee78/swictation?style=flat-square) | Voice dictation for Sway/Wayland |
+| [**voice-typing-linux**](https://github.com/GitJuhb/voice-typing-linux) | ![Stars](https://img.shields.io/github/stars/GitJuhb/voice-typing-linux?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/GitJuhb/voice-typing-linux?style=flat-square) | Voice typing for Linux with Wayland support |
+| [**whispy**](https://github.com/daaku/whispy) | ![Stars](https://img.shields.io/github/stars/daaku/whispy?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/daaku/whispy?style=flat-square) | STT tool with Wayland support |
+| [**dictation-tools**](https://github.com/gfreeau/dictation-tools) | ![Stars](https://img.shields.io/github/stars/gfreeau/dictation-tools?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/gfreeau/dictation-tools?style=flat-square) | Dictation tools with Wayland support |
+| [**local-dictation-assistant**](https://github.com/Wiecek-K/local-dictation-assistant) | ![Stars](https://img.shields.io/github/stars/Wiecek-K/local-dictation-assistant?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/Wiecek-K/local-dictation-assistant?style=flat-square) | Local dictation assistant with Wayland support |
+
+---
+
 ### GUI or CLI
 
 As always in Linux, you'll notice a bias towards CLIs and (more AI/ML than Linux) a heavy bias towards Python. But there are projects that take a ... human friendlier approach ... and try to make voice tech accessible. I will always go out of my way to highlight those as they align closely with my own philosophy!
@@ -188,14 +211,18 @@ As always in Linux, you'll notice a bias towards CLIs and (more AI/ML than Linux
 | [**multi-dictate**](https://github.com/makelinux/multi-dictate) | ![Stars](https://img.shields.io/github/stars/makelinux/multi-dictate?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/makelinux/multi-dictate?style=flat-square) | Multi-platform dictation tool |
 | [**dictator**](https://github.com/chris17453/dictator) | ![Stars](https://img.shields.io/github/stars/chris17453/dictator?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/chris17453/dictator?style=flat-square) | Voice dictation tool for Linux |
 | [**ptt-dictate**](https://github.com/arturo-jc/ptt-dictate) | ![Stars](https://img.shields.io/github/stars/arturo-jc/ptt-dictate?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/arturo-jc/ptt-dictate?style=flat-square) | Push-to-talk dictation tool |
+| [**Dictation**](https://github.com/VanQWisher/Dictation) | ![Stars](https://img.shields.io/github/stars/VanQWisher/Dictation?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/VanQWisher/Dictation?style=flat-square) | Dictation tool |
+| [**whisper-dictation**](https://github.com/ananjiani/whisper-dictation) | ![Stars](https://img.shields.io/github/stars/ananjiani/whisper-dictation?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/ananjiani/whisper-dictation?style=flat-square) | Whisper-based dictation tool |
+| [**dicti**](https://github.com/tksimson/dicti) | ![Stars](https://img.shields.io/github/stars/tksimson/dicti?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/tksimson/dicti?style=flat-square) | Dictation tool |
+| [**VocalFLow**](https://github.com/R3DK3LL/VocalFLow) | ![Stars](https://img.shields.io/github/stars/R3DK3LL/VocalFLow?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/R3DK3LL/VocalFLow?style=flat-square) | Voice flow dictation tool |
 
-### Unsorte
+### Additional Whisper Implementations
 
+More Whisper-based tools for Linux:
 
 | Repository | Stars | Last Updated | Description |
 |------------|-------|--------------|-------------|
 | [**Linux-Dictation-Project**](https://github.com/wheeler01/Linux-Dictation-Project) | ![Stars](https://img.shields.io/github/stars/wheeler01/Linux-Dictation-Project?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/wheeler01/Linux-Dictation-Project?style=flat-square) | Linux dictation project |
-| [**voice-typing-linux**](https://github.com/GitJuhb/voice-typing-linux) | ![Stars](https://img.shields.io/github/stars/GitJuhb/voice-typing-linux?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/GitJuhb/voice-typing-linux?style=flat-square) | Voice typing for Linux |
 | [**LinuxWhisper**](https://github.com/vitali87/LinuxWhisper) | ![Stars](https://img.shields.io/github/stars/vitali87/LinuxWhisper?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/vitali87/LinuxWhisper?style=flat-square) | Whisper for Linux |
 | [**WhisperNow**](https://github.com/shinglyu/WhisperNow) | ![Stars](https://img.shields.io/github/stars/shinglyu/WhisperNow?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/shinglyu/WhisperNow?style=flat-square) | Real-time Whisper transcription |
 | [**whisper-ui**](https://github.com/schnoddelbotz/whisper-ui) | ![Stars](https://img.shields.io/github/stars/schnoddelbotz/whisper-ui?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/schnoddelbotz/whisper-ui?style=flat-square) | Whisper UI interface |
@@ -206,15 +233,21 @@ As always in Linux, you'll notice a bias towards CLIs and (more AI/ML than Linux
 | [**handsfree**](https://github.com/achyudh/handsfree) | ![Stars](https://img.shields.io/github/stars/achyudh/handsfree?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/achyudh/handsfree?style=flat-square) | Hands-free computing |
 | [**dictation-service**](https://github.com/sanastasiou/dictation-service) | ![Stars](https://img.shields.io/github/stars/sanastasiou/dictation-service?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/sanastasiou/dictation-service?style=flat-square) | Dictation service |
 | [**transcribeAnywhere**](https://github.com/naren200/transcribeAnywhere) | ![Stars](https://img.shields.io/github/stars/naren200/transcribeAnywhere?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/naren200/transcribeAnywhere?style=flat-square) | Universal transcription tool |
-| [**TermlAi**](https://github.com/rohitkr150015/TermlAi) | ![Stars](https://img.shields.io/github/stars/rohitkr150015/TermlAi?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/rohitkr150015/TermlAi?style=flat-square) | Terminal AI assistant |
-| [**notesGPT**](https://github.com/Nutlope/notesGPT) | ![Stars](https://img.shields.io/github/stars/Nutlope/notesGPT?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/Nutlope/notesGPT?style=flat-square) | Voice notes with GPT processing |
+| [**WhisperVoiceInput**](https://github.com/V0v1kkk/WhisperVoiceInput) | ![Stars](https://img.shields.io/github/stars/V0v1kkk/WhisperVoiceInput?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/V0v1kkk/WhisperVoiceInput?style=flat-square) | Whisper voice input tool |
+| [**WhisperVoice**](https://github.com/SarwadnyaMahajan/WhisperVoice) | ![Stars](https://img.shields.io/github/stars/SarwadnyaMahajan/WhisperVoice?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/SarwadnyaMahajan/WhisperVoice?style=flat-square) | Whisper voice processing tool |
 | [**whisper**](https://github.com/Nutlope/whisper) | ![Stars](https://img.shields.io/github/stars/Nutlope/whisper?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/Nutlope/whisper?style=flat-square) | Whisper implementation |
 | [**deepin-voice-note**](https://github.com/linuxdeepin/deepin-voice-note) | ![Stars](https://img.shields.io/github/stars/linuxdeepin/deepin-voice-note?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/linuxdeepin/deepin-voice-note?style=flat-square) | Deepin voice note application |
-| [**say**](https://github.com/addyosmani/say) | ![Stars](https://img.shields.io/github/stars/addyosmani/say?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/addyosmani/say?style=flat-square) | Voice synthesis tool |
-| [**ScribeWizard**](https://github.com/Bklieger/ScribeWizard) | ![Stars](https://img.shields.io/github/stars/Bklieger/ScribeWizard?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/Bklieger/ScribeWizard?style=flat-square) | Transcription wizard tool |
-| [**WhisperVoiceInput**](https://github.com/V0v1kkk/WhisperVoiceInput) | ![Stars](https://img.shields.io/github/stars/V0v1kkk/WhisperVoiceInput?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/V0v1kkk/WhisperVoiceInput?style=flat-square) | Whisper voice input tool |
+| [**TermlAi**](https://github.com/rohitkr150015/TermlAi) | ![Stars](https://img.shields.io/github/stars/rohitkr150015/TermlAi?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/rohitkr150015/TermlAi?style=flat-square) | Terminal AI assistant with voice |
+
+### Voice Notes & AI-Enhanced Transcription
+
+Apps focused on capturing voice notes with AI processing:
+
+| Repository | Stars | Last Updated | Description |
+|------------|-------|--------------|-------------|
+| [**notesGPT**](https://github.com/Nutlope/notesGPT) | ![Stars](https://img.shields.io/github/stars/Nutlope/notesGPT?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/Nutlope/notesGPT?style=flat-square) | Voice notes with GPT processing |
 | [**whisper-notes-pro**](https://github.com/mzazakeith/whisper-notes-pro) | ![Stars](https://img.shields.io/github/stars/mzazakeith/whisper-notes-pro?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/mzazakeith/whisper-notes-pro?style=flat-square) | Professional whisper notes application |
-| [**WhisperVoice**](https://github.com/SarwadnyaMahajan/WhisperVoice) | ![Stars](https://img.shields.io/github/stars/SarwadnyaMahajan/WhisperVoice?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/SarwadnyaMahajan/WhisperVoice?style=flat-square) | Whisper voice processing tool |
+| [**ScribeWizard**](https://github.com/Bklieger/ScribeWizard) | ![Stars](https://img.shields.io/github/stars/Bklieger/ScribeWizard?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/Bklieger/ScribeWizard?style=flat-square) | Transcription wizard tool |
 
 ### STT with Post-processing
 
@@ -243,6 +276,8 @@ Tools that leverage Whisper etc for STT but also add a layer for text cleanup af
 | [**stt-linux**](https://github.com/afif-malghani/stt-linux) | ![Stars](https://img.shields.io/github/stars/afif-malghani/stt-linux?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/afif-malghani/stt-linux?style=flat-square) | STT for Linux |
 | [**super-stt**](https://github.com/jorge-menjivar/super-stt) | ![Stars](https://img.shields.io/github/stars/jorge-menjivar/super-stt?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/jorge-menjivar/super-stt?style=flat-square) | Enhanced STT tool |
 | [**wvcr**](https://github.com/bakeryproducts/wvcr) | ![Stars](https://img.shields.io/github/stars/bakeryproducts/wvcr?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/bakeryproducts/wvcr?style=flat-square) | Wave voice control recorder |
+| [**STT-Assistant-linux**](https://github.com/4lext/STT-Assistant-linux) | ![Stars](https://img.shields.io/github/stars/4lext/STT-Assistant-linux?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/4lext/STT-Assistant-linux?style=flat-square) | STT assistant for Linux |
+| [**voicekeyboard**](https://github.com/sam1am/voicekeyboard) | ![Stars](https://img.shields.io/github/stars/sam1am/voicekeyboard?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/sam1am/voicekeyboard?style=flat-square) | Voice keyboard implementation |
 
 ## Vendor Projects
 
@@ -253,13 +288,6 @@ Tools that leverage Whisper etc for STT but also add a layer for text cleanup af
 | [**fortuna**](https://github.com/deepgram-devs/fortuna) | ![Stars](https://img.shields.io/github/stars/deepgram-devs/fortuna?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/deepgram-devs/fortuna?style=flat-square) | Deepgram Fortuna project |
 | [**voice-keyboard-linux**](https://github.com/deepgram/voice-keyboard-linux) | ![Stars](https://img.shields.io/github/stars/deepgram/voice-keyboard-linux?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/deepgram/voice-keyboard-linux?style=flat-square) | Deepgram voice keyboard |
 | [**Deepgram-Voice-Keyboard-Ubuntu**](https://github.com/danielrosehill/Deepgram-Voice-Keyboard-Ubuntu) | ![Stars](https://img.shields.io/github/stars/danielrosehill/Deepgram-Voice-Keyboard-Ubuntu?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Deepgram-Voice-Keyboard-Ubuntu?style=flat-square) | STT project using Deepgram API for Ubuntu |
-
-### Small Repositories
-
-| Repository | Stars | Last Updated | Description |
-|------------|-------|--------------|-------------|
-| [**STT-Assistant-linux**](https://github.com/4lext/STT-Assistant-linux) | ![Stars](https://img.shields.io/github/stars/4lext/STT-Assistant-linux?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/4lext/STT-Assistant-linux?style=flat-square) | STT assistant for Linux |
-| [**voicekeyboard**](https://github.com/sam1am/voicekeyboard) | ![Stars](https://img.shields.io/github/stars/sam1am/voicekeyboard?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/sam1am/voicekeyboard?style=flat-square) | Voice keyboard implementation |
 
 ---
 
@@ -313,15 +341,54 @@ Web UIs for Whisper etc for transcribing prerecorded audio and meeting processin
 
 ## API Services
 
+Local API servers and services for STT:
+
 | Repository | Stars | Last Updated | Description |
 |------------|-------|--------------|-------------|
 | [**whisper-fastapi**](https://github.com/heimoshuiyu/whisper-fastapi) | ![Stars](https://img.shields.io/github/stars/heimoshuiyu/whisper-fastapi?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/heimoshuiyu/whisper-fastapi?style=flat-square) | Whisper FastAPI service |
 
 ---
 
+## Cloud STT / API-Based Tools
+
+Projects that use cloud STT APIs for transcription. These may support only cloud inference, or offer it alongside local options. Cloud APIs often provide faster processing and don't require local GPU resources.
+
+### OpenAI Whisper API
+
+Tools that support the OpenAI Whisper API (or compatible endpoints like Azure, Groq, etc.):
+
+| Repository | Stars | Last Updated | Description |
+|------------|-------|--------------|-------------|
+| [**whisper-fastapi**](https://github.com/heimoshuiyu/whisper-fastapi) | ![Stars](https://img.shields.io/github/stars/heimoshuiyu/whisper-fastapi?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/heimoshuiyu/whisper-fastapi?style=flat-square) | FastAPI server with OpenAI Whisper API compatibility |
+| [**Whisper-Notepad-For-Linux**](https://github.com/danielrosehill/Whisper-Notepad-For-Linux) | ![Stars](https://img.shields.io/github/stars/danielrosehill/Whisper-Notepad-For-Linux?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Whisper-Notepad-For-Linux?style=flat-square) | Whisper notepad with OpenAI API support and post-processing |
+| [**Whisper-Notepad-Simple**](https://github.com/danielrosehill/Whisper-Notepad-Simple) | ![Stars](https://img.shields.io/github/stars/danielrosehill/Whisper-Notepad-Simple?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Whisper-Notepad-Simple?style=flat-square) | Simplified Whisper notepad using OpenAI API |
+| [**speech2keys**](https://github.com/vanviegen/speech2keys) | ![Stars](https://img.shields.io/github/stars/vanviegen/speech2keys?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/vanviegen/speech2keys?style=flat-square) | Speech to keystrokes using OpenAI Whisper API |
+| [**whisply**](https://github.com/tsmdt/whisply) | ![Stars](https://img.shields.io/github/stars/tsmdt/whisply?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/tsmdt/whisply?style=flat-square) | GUI for OpenAI Whisper with API support |
+| [**whisper-to-input-desktop**](https://github.com/Rosbifbr/whisper-to-input-desktop) | ![Stars](https://img.shields.io/github/stars/Rosbifbr/whisper-to-input-desktop?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/Rosbifbr/whisper-to-input-desktop?style=flat-square) | Desktop app using OpenAI's Whisper to transcribe and input text |
+
+### Deepgram API
+
+Tools that support the Deepgram STT API:
+
+| Repository | Stars | Last Updated | Description |
+|------------|-------|--------------|-------------|
+| [**fortuna**](https://github.com/deepgram-devs/fortuna) | ![Stars](https://img.shields.io/github/stars/deepgram-devs/fortuna?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/deepgram-devs/fortuna?style=flat-square) | Deepgram Fortuna project |
+| [**voice-keyboard-linux**](https://github.com/deepgram/voice-keyboard-linux) | ![Stars](https://img.shields.io/github/stars/deepgram/voice-keyboard-linux?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/deepgram/voice-keyboard-linux?style=flat-square) | Deepgram voice keyboard for Linux |
+| [**Deepgram-Voice-Keyboard-Ubuntu**](https://github.com/danielrosehill/Deepgram-Voice-Keyboard-Ubuntu) | ![Stars](https://img.shields.io/github/stars/danielrosehill/Deepgram-Voice-Keyboard-Ubuntu?style=flat-square) | ![Last Commit](https://img.shields.io/github/last-commit/danielrosehill/Deepgram-Voice-Keyboard-Ubuntu?style=flat-square) | STT project using Deepgram API for Ubuntu |
+
+---
+
 # Models
 
 STT models
+
+### Hugging Face ASR Models
+
+Browse and discover ASR models on Hugging Face:
+
+| Resource | Description |
+|----------|-------------|
+| [ASR Models (Trending)](https://huggingface.co/models?pipeline_tag=automatic-speech-recognition&sort=trending) | Trending automatic speech recognition models on Hugging Face |
 
 ## Open AI Whisper
 
@@ -418,6 +485,23 @@ ASR/STT toolkits and frameworks for building voice applications:
 ---
 
 ## Community Resources
+
+### GitHub Topics
+
+GitHub topics worth following to discover new STT and voice projects:
+
+| Topic | Description |
+|-------|-------------|
+| [speech-to-text](https://github.com/topics/speech-to-text) | General speech-to-text projects |
+| [asr](https://github.com/topics/asr) | Automatic speech recognition |
+| [dictation](https://github.com/topics/dictation) | Dictation tools and applications |
+| [voice-dictation](https://github.com/topics/voice-dictation) | Voice dictation specific projects |
+| [transcription](https://github.com/topics/transcription) | Audio/video transcription tools |
+| [voice](https://github.com/topics/voice) | General voice technology projects |
+| [voice-assistant](https://github.com/topics/voice-assistant) | Voice assistant applications |
+| [voice-recognition](https://github.com/topics/voice-recognition) | Voice recognition systems |
+| [voice-commands](https://github.com/topics/voice-commands) | Voice command implementations |
+| [voice-control](https://github.com/topics/voice-control) | Voice control tools |
 
 ### Subreddits
 
